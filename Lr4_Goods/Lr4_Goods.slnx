@@ -2,5 +2,5 @@
   <Folder Name="/Элементы решения/">
     <File Path="Товары.csv" />
   </Folder>
-  <Project Path="Lr4_Goods.csproj" />
+  <Project Path="Lr4_Goods.csproj" Id="d258b789-beff-4b3d-8332-5b0d903ae39b" />
 </Solution>

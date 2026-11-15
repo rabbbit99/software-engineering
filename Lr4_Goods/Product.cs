@@ -18,5 +18,19 @@ namespace Lr4_Goods
         public string UnitDescription { get; set; }    //Количество в позиции
         public string CategoryName { get; set; }    //Название категории товара
 
+        public Product(string delimiterString)
+        {
+            string[] mas = delimiterString.Split(';');
+            CompanyName = mas[0];
+            ProductName = mas[1];
+            Cost = double.Parse(mas[2]);
+            Price = double.Parse(mas[3]);
+            Count = int.Parse(mas[4]);
+            MinCount = int.Parse(mas[5]);
+            DesiredCount = int.Parse(mas[6]);
+            UnitDescription = mas[7];
+            CategoryName = mas[8];
+        }
+
     }
 }
